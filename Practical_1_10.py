@@ -1,5 +1,5 @@
 def main():
-    with open("Practical_1_10.txt") as file:
+    with open("Practical_1_10.txt", encoding="utf-8") as file:
         count = 0
         pds_count = 0
         for row in file:
