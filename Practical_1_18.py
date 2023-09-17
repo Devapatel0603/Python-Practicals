@@ -11,7 +11,6 @@ def ins_details(dic):
     name = input("Student Name : ")
     no = int(input("Enrollment No. : "))
     spi = float(input("SPI : "))
-    # dict[enr] = {'name':name,'spi':spi}
     dict["Name"] = name
     dict["Enrollment_no"] = no
     dict["SPI"] = spi
