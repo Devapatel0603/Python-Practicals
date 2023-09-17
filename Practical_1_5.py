@@ -1,8 +1,7 @@
-a = [0]*10
-print(a)
+a = []
 for i in range(0,10):
     print(f"Enter element no. {i+1} : ")
-    a[i] = int(input())
+    a.append(int(input()))
 odd_count = 0
 even_count = 0
 max_even = 0
