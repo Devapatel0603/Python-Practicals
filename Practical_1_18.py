@@ -6,14 +6,14 @@ def main():
     print(sort_spi(stud_list))
 
 def ins_details(dic):
-    dict={}
+    di={}
     name = input("Student Name : ")
     no = int(input("Enrollment No. : "))
     spi = float(input("SPI : "))
-    dict["Name"] = name
-    dict["Enrollment_no"] = no
-    dict["SPI"] = spi
-    dic.append(dict)
+    di["Name"] = name
+    di["Enrollment_no"] = no
+    di["SPI"] = spi
+    dic.append(di)
 
 def sort_spi(spi_list):
     print(sorted(spi_list,key = lambda i:i["SPI"]))
