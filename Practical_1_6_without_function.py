@@ -8,11 +8,11 @@ def perfect(b):
             count = count + 1
     for j in range(0,count):
         sum = sum + a[j]
-    return sum
+    if(sum == n):
+        print(f"{n} is a perfect number.")
+    else:
+        print(f"{n} is not a perfect number.")
 n = int(input("Enter a number : "))
-sum = perfect(n)
-if(sum == n):
-    print(f"{n} is a perfect number.")
-else:
-    print(f"{n} is not a perfect number.")
+perfect(n)
+
 
